@@ -1,0 +1,40 @@
+import random
+
+lower = "abcdefghklmnouxyz"
+upper = "ABCDEFGHKLMNOUVYZX"
+numbers = "0123456789"
+symbols = "!/"
+
+all = lower + upper + numbers + symbols
+lenght = 6
+
+password = "".join(random.sample(all,lenght))
+
+calıs=(password)
+
+
+print(" ")
+
+print("""           bakım olduğu için keymaker!
+█▀▀ █▀▄▀█ █▀▀   █▀▀▄ █▀▀█ █▀▄▀█ █▀▀▄ █▀▀ █▀▀█
+▀▀█ █░▀░█ ▀▀█   █▀▀▄ █░░█ █░▀░█ █▀▀▄ █▀▀ █▄▄▀
+▀▀▀ ▀░░░▀ ▀▀▀   ▀▀▀░ ▀▀▀▀ ▀░░░▀ ▀▀▀░ ▀▀▀ ▀░▀▀
+                 <>by dtzjet#2023""")      
+print(" ")
+
+
+
+print(" ")
+                #
+password = '1'
+
+girilenPassword = input("Anahtar Üretmek İçin 1'e Basınız: ")
+
+if (girilenPassword == password):
+       print("uygulamaya giriş başarılı." ,
+              print("-"*30),
+              print("Üretilen Anahtar : ",calıs),
+                print("-"*30)
+        )       
+else:
+        print('parolaniz yanliş')
